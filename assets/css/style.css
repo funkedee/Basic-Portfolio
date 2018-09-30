@@ -1,0 +1,91 @@
+body {
+    background: #ededed
+}
+
+header {
+    background: #ffffff;
+    border-bottom: 2px solid #cccccc;
+    height: 75px;
+    width: 100%;
+}
+
+div {
+    height: 75px;
+    width: 960px;
+    margin: auto;
+    
+}
+
+h1 {
+    background: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    width: 175px;
+    float: left;
+    position: relative;
+    bottom: 22px;
+}
+
+ul {
+    float: right;
+    padding: 20px 0px 20px 20px;
+}
+
+li {
+    display: inline;
+    color: #777777;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #777777;
+}
+
+.nav_link {
+    color: #777777;
+    padding: 10px;
+
+}
+
+main {
+    background: #ffffff;
+    width: 918px;
+    padding: 10px 20px 10px 20px ;
+    border: 1px solid #cccccc;
+    clear: both;
+    margin: auto;
+    overflow: auto;
+}
+
+h2 {
+    color: #4aaaa5;
+    font-size: 30px;
+}
+
+hr {
+    color: #777777;
+}
+.profile_pic {
+    height: 150px;
+    width: 150px;
+    float: left;
+    padding: 20px 20px 20px 0px;
+}
+p {
+    color: #777777;
+    padding: 6px 20px 0px 0px;
+}
+
+footer {
+    background: #666666;
+    color: #ffffff;
+    text-align: center;
+    font-size: 8px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 40px;
+    border-top: 5px solid #4aaaa5;
+}
