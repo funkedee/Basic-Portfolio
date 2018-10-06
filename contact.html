@@ -4,11 +4,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>DL-Contact</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/contact_style.css">
 </head>
 <body>
+    <div id= "page_container">
     <header>
-        <div>
+        <div id="header_container">
             <h3>Daniel Lois</h3>
 
             <!-- navigation bar -->
@@ -22,23 +25,37 @@
         </div>
     </header>
 
-    <form>
-        <h4>Contact</h4>
+    <main>
+        <form>
+            <h4>Contact</h4>
 
-        Name<br>
-        <input type="text" name="name"><br>
+            <hr>
+            
+            <div class= "input_container">
+                Name<br>
+                <input type="text" name="name"><br>
+            </div>
 
-        Email<br>
-        <input type="text" name="email"><br>
-        
-        Message<br>
-        <input type="text" name="message"><br>
+            <div class= "input_container">
+                Email<br>
+                <input type="text" name="email"><br>
+            </div>
 
-        <input type="submit" value="submit">
-    </form>
-    
+            <div class= "input_container">
+                Message<br>
+                <input type="text" name="message"><br>
+            </div>
+
+            <div class= "input_container">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </main>
+
     <footer>
+            <br> <br> <br> <br>
             Copyright 2018
     </footer>
+    </div>
 </body>
 </html>
